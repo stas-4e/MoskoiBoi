@@ -1,0 +1,14 @@
+﻿<Window x:Class="MoskoiBoi.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoskoiBoi"
+        mc:Ignorable="d"
+        Title="Игра морской бой" Height="600" Width="1300" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid x:Name="GridPole" HorizontalAlignment="Left" Height="400" Margin="31,114,0,0" VerticalAlignment="Top" Width="400" Background="Gray" MouseUp="GridPole_MouseUp" MouseMove="GridPole_MouseMove"/>
+        <Grid x:Name="Gridsopernik" HorizontalAlignment="Left" Height="400" Margin="652,114,0,0" VerticalAlignment="Top" Width="400" Background="Gray" MouseUp="Gridsopernik_MouseUp" MouseMove="Gridsopernik_MouseMove"/>
+        <Label x:Name="lbXod" Content="Игра морской бой" HorizontalAlignment="Left" Margin="486,56,0,0" VerticalAlignment="Top" Height="34" Width="70"/>
+    </Grid>
+</Window>
