@@ -1320,7 +1320,7 @@ namespace MoskoiBoi
             Random random = new Random();
           //  MessageBox.Show(Convert.ToBoolean(random.Next(0,1)).ToString());
             int j = 4;
-            int kolvo = 0; //АААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
+            int kolvo = 1; //АААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
             for (int i = 0; i <= j;)
             {
                 if (j == 0)
@@ -1329,10 +1329,10 @@ namespace MoskoiBoi
                 }
                 if (i < j)
                 {
-                 //   while (!CheckingShipsBot(random.Next(0, 9), random.Next(0, 9), kolvo, Convert.ToBoolean(random.Next(0, 2)), grid))
-                   // {
-                   //
-                    //}
+                    while (!CheckingShipsBot(random.Next(0, 9), random.Next(0, 9), kolvo, Convert.ToBoolean(random.Next(0, 2)), grid))
+                    {
+                   
+                    }
                     i++;
                 }
                 else
